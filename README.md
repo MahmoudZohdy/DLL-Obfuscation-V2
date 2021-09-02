@@ -20,3 +20,8 @@ the Dll should be on fixed address (No relocation) as this will courupte the dec
 the decryption is simple XOR with 0xAB
 
 # Demo
+
+![Clean](https://github.com/MahmoudZohdy/DLL-Obfuscation-V2/blob/main/images/Clean.PNG)
+
+Obfuscated Version
+![Obfuscated](https://github.com/MahmoudZohdy/DLL-Obfuscation-V2/blob/main/images/Encrypted.PNG)
