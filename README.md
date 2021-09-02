@@ -1,6 +1,6 @@
 # DLL-Obfuscation-V2
 
-This Project is the Second version of DLL-Obfuscation that i did before, its better as the Dll will be loaded normaly like any other Dll (it will be called on Process\Thread Attach and detach) the First Version uses Reflective DLL injection to load the Encrypted Dll.
+This Project is the Second version of DLL-Obfuscation that i did before, the difference is that in this version the Dll will be loaded normaly like any other Dll on the system (it will be called on Process\Thread Attach and detach) the First Version uses Reflective DLL injection to load the Encrypted Dll.
 
 it work by intercepting the excution path of LoadLibraryA by setting a Hardware Breakpoint on ZwMapViewOfSection, then decrypt the code section of the Dll after mapping it to memory as Image.
 
